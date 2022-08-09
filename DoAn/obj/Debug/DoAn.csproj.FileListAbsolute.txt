@@ -1,0 +1,10 @@
+C:\Users\KIENVIPRO\Desktop\nhap mon lap trinh\DoAn\DoAn\bin\DoAn.dll
+C:\Users\KIENVIPRO\Desktop\nhap mon lap trinh\DoAn\DoAn\bin\DoAn.pdb
+C:\Users\KIENVIPRO\Desktop\nhap mon lap trinh\DoAn\DoAn\obj\Debug\DoAn.csprojResolveAssemblyReference.cache
+C:\Users\KIENVIPRO\Desktop\nhap mon lap trinh\DoAn\DoAn\obj\Debug\DoAn.dll
+C:\Users\KIENVIPRO\Desktop\nhap mon lap trinh\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\KIENVIPRO\Desktop\DoAn\bin\DoAn.dll
+C:\Users\KIENVIPRO\Desktop\DoAn\bin\DoAn.pdb
+C:\Users\KIENVIPRO\Desktop\DoAn\obj\Debug\DoAn.csprojResolveAssemblyReference.cache
+C:\Users\KIENVIPRO\Desktop\DoAn\obj\Debug\DoAn.dll
+C:\Users\KIENVIPRO\Desktop\DoAn\obj\Debug\DoAn.pdb

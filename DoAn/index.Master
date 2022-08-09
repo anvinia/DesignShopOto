@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="DoAn.index"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id ="main">
+            <div id ="headx">
+                 <img src="img/hinh3.jpg" style="width: 1498px; height: 501px; margin-left: 0px;" />
+            </div>
+           <div id ="headlink">
+               <ul>  
+                    <li><asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/GioHang.aspx">Giỏ Hàng</asp:HyperLink></li> 
+                    <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/DangKy.aspx">Đăng Ký Thành Viên</asp:HyperLink></li>   
+                    <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/SanPham.aspx">Sản Phẩm</asp:HyperLink></li>    
+                    <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/SuKien.aspx">Giới Thiệu Website</asp:HyperLink></li>   
+                    <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TrangChu.aspx">Trang Chủ</asp:HyperLink></li> 
+               </ul>
+             </div>
+             <div id ="left">
+                 <asp:Panel ID="Panel1" runat="server" Font-Size="Medium" ForeColor="White">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> &nbsp;&nbsp;&nbsp;&nbsp; Khu Vực Search</asp:Panel>
+                 <asp:TextBox ID="TextBox1" runat="server" Height="41px" Width="198px"></asp:TextBox>
+
+                 <p>---------------------------------------------------</p>
+                 <asp:Image ID="HINH1" ImageUrl="~/img/hinh7.jpg" runat="server" Width="201px"/>
+                 <ul>
+                     <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/XeDap.aspx" Font-Size="Large">Xe Đạp</asp:HyperLink></li>
+                 </ul>
+                 <asp:Image ID="HINH3" ImageUrl="~/img/hinh5.jpg" runat="server" Width="201px"/>
+                 <ul>
+                     <li><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/XeMoTo.aspx" Font-Size="Large">Xe Mô Tô</asp:HyperLink></li>
+                 </ul>
+                 <asp:Image ID="HINH2" ImageUrl="~/img/hinh6.jpg" runat="server" Width="201px" Height="127px"/>
+                 <ul>
+                      <li><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/XeOTo.aspx" Font-Size="Large">Xe Ô Tô</asp:HyperLink></li>
+                 </ul>
+                 <asp:Image ID="HINH4" ImageUrl="~/img/hinh10.jpg" runat="server" Width="201px" Height="127px"/>
+                 <ul>
+                     <li><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/AnhFeedBack.aspx" Font-Size="Large">FeedBack</asp:HyperLink></li>
+                 </ul> 
+                 <ul>
+                     <li><asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/themxedap.aspx" Font-Size="Medium">THÊM XE</asp:HyperLink></li>
+                 </ul>   
+              </div>
+            <div id = "content">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+                  <asp:Image ID="Image4" runat="server" />
+                
+             </asp:ContentPlaceHolder>
+             </div>
+             <div id ="footer">
+                 <p style="padding: inherit; background-color: #FFFFFF; font-size: 25px; width: 508px; margin-left: 530px;">TỰ KIÊN - NHẬT TÂN - ĐỨC HUY- Nhóm 4<p>
+             </div>
+         </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿body {
+    font-family : Arial,Tahoma;
+    font-size :12px;
+}
+#main {
+    width : 1496px;
+    padding : 0;
+    margin-right : auto;
+    margin-left : auto;
+    height: 1544px;
+}
+#headx {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    height:500px;
+    background-color:black;
+    margin-bottom : 5px;
+    width: 1490px;
+}
+#headlink {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    height:30px;
+    line-height :33px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: black;
+    margin-bottom:5px;
+    clear:both;
+    background-color : black;
+    width: 1475px;
+    margin-right: 23px;
+}
+#headlink ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-transform:uppercase;
+}
+#headlink ul li{
+    line-height:30px;
+    text-decoration : none;
+    float:right;
+    padding : 0 30px;
+    font-weight : bold;
+    background-color:yellow;
+    width: 196px;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    border-bottom-width: 1px;
+}
+#left {
+    width:204px;
+    min-height:1000px;
+    border: 0.5px solid black;
+    float:left;
+    background-color:black;
+    height: 1000px;
+}
+#left ul {
+    width:162px;
+    line-height:30px;
+    text-decoration : none;
+    float:left;
+    height: 45px;
+}
+#left ul {
+    padding : 0 30px;
+    font-weight : bold;
+    background-color:yellow;
+    width: 142px;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    border-bottom-width: 1px;
+    height: 41px;
+    margin-left: 0px;
+    float:left;
+}
+#left li {
+    padding : 0 30px;
+    font-weight : bold;
+    background-color:yellow;
+    width: 108px;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    border-bottom-width: 1px;
+    height: 41px;
+    margin-left: 0px;
+    float:left;
+    }
+#content {
+    width:1289px;
+    min-height:1000px;
+    border: 0px solid black;
+    float:left;
+}
+
+#footer {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    height:50px;
+    clear:both;
+    background-color : black;
+    font-size : medium;
+    width: 1496px;
+}
+
